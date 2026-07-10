@@ -1473,12 +1473,6 @@ section,
   border-color: #aa0061;
 }
 
-/* Resume custom colors */
-.resume .resume-title,
-.resume .resume-item h4 {
-  color: #aa0061;
-}
-
 /* Linha vertical entre os pontos */
 .resume .resume-item {
   border-left: 2px solid #aa0061;
