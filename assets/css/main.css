@@ -1457,3 +1457,13 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Títulos dos itens do currículo */
+.resume .resume-item h4 {
+  color: #aa0061;
+}
+
+/* Bolinhas da linha do tempo */
+.resume .resume-item::before {
+  border-color: #aa0061;
+}
