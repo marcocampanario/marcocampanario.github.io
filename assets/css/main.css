@@ -1485,3 +1485,8 @@ section,
   background: #aa0061;
 }
 
+/* Justificar descrições das experiências no Resume */
+.resume .resume-item p {
+  text-align: justify;
+  text-justify: inter-word;
+}
