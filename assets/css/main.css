@@ -1458,7 +1458,12 @@ section,
   /* Add your styles here */
 }
 
-/* Títulos dos itens do currículo */
+/* Títulos maiores: Summary, Education, Experience */
+.resume .resume-title {
+  color: #272829;
+}
+
+/* Títulos de cada item */
 .resume .resume-item h4 {
   color: #aa0061;
 }
