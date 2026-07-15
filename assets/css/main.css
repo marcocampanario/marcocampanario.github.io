@@ -1495,3 +1495,44 @@ section,
   text-align: justify;
   text-justify: inter-word;
 }
+
+.publications .portfolio-filters li:hover,
+.publications .portfolio-filters li.filter-active {
+  color: #ffffff;
+  background-color: #aa0061;
+}
+
+.publications .portfolio-item {
+  border-radius: 8px;
+}
+
+.publications .publication-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.publications .portfolio-info {
+  background-color: rgba(255, 255, 255, 0.96);
+}
+
+.publications .portfolio-info h4 {
+  color: #aa0061;
+  font-size: 17px;
+  line-height: 1.35;
+  padding-right: 75px;
+  margin-bottom: 8px;
+}
+
+.publications .portfolio-info p {
+  color: #444444;
+  line-height: 1.45;
+  padding-right: 75px;
+  text-align: left;
+}
+
+.publications .portfolio-info .preview-link:hover,
+.publications .portfolio-info .details-link:hover {
+  color: #aa0061;
+}
