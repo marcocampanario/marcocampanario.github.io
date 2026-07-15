@@ -597,8 +597,6 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .about .content ul {
@@ -1488,6 +1486,12 @@ section,
 
 /* Justificar descrições das experiências no Resume */
 .resume .resume-item p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Justificar os textos da seção About */
+.about p {
   text-align: justify;
   text-justify: inter-word;
 }
