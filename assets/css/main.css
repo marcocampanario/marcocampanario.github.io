@@ -597,6 +597,8 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about .content ul {
